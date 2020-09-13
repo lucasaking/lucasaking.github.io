@@ -50,7 +50,7 @@ ul, li {
     display: inline-block;
     bottom:10px;
     margin-left: -270px;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100px; 
     font-family: Impact;
 	-webkit-text-stroke: 1px black;
@@ -67,7 +67,7 @@ ul, li {
     top:10px;
     margin-left: -400px;
     font-stretch: inherit;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100px; 
     font-family: Impact;
 	-webkit-text-stroke: 1px black;
