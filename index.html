@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-text">Meme Generator 2000++</h1>
+        <div></div>
+        <img src="nyan5.png" class="nyan">
+        <h3 id="secondary-text">Help Nyan Cat fly by generating a meme!</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+    </header>
+    <article>
+        <nav>
+            <div>
+            <ul>
+                <li>
+                <label for="top-text">Top Text</label>
+                <input type="text" id="top-text" maxlength="10">
+                </li>
+                <li>
+                    <br>
+                <label for="bottom-text">Bottom Text</label>
+                <input type="text" id="bottom-text" maxlength="10">
+                </li>
+                <li>
+                    <br>
+                    <form action="#" id="wrapper">
+                        <label for="image-input">Enter Meme URL: </label>    
+                        <input type="text" id="image-input" accept="url">
+                        <button type="submit" id="generate-btn">Generate!</button>
+                    </form>  
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </article>
+    <br>
+    <br>
+    <div id="outer"> 
+    </div>
+</body>
+<script src="meme.js"></script>
+</html>
