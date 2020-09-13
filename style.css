@@ -50,9 +50,12 @@ ul, li {
     display: inline-block;
     bottom:10px;
     margin-left: -270px;
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 100px; 
+    font-family: Impact;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
     line-height: 100px;
-    text-size-adjust: 100%;
     font-family: Impact;
     position:absolute;
     text-overflow: ellipsis;
@@ -64,9 +67,11 @@ ul, li {
     top:10px;
     margin-left: -400px;
     font-stretch: inherit;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 100px; 
     font-family: Impact;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
 }
 
 .container {
